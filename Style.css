@@ -1,21 +1,27 @@
 /* General */
-#colums {
-    display: flex;
-}
+
 /* Fin */
+
 /* Parte de Yael */
+
 #header {
   background-color: bisque;
 }
-#burgersColum {
+
+/*#burgersColum {
     display: flex;
     flex-direction: column;
+}*/
+
+.burgers {
+  display: flex;
+  background-color: coral;
 }
+
 /* Fin */
 
 /* Parte de Byuto */
 #deliveryColum {
-    display: flex;
-    flex-direction: column;
+  display: flex;
 }
 /* Fin */
