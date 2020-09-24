@@ -1,20 +1,28 @@
 /* General */
-
+#colums {
+  display: flex;
+  flex-direction: column;
+}
 /* Fin */
 
 /* Parte de Yael */
 
-#header {
-  background-color: bisque;
-}
-
-/*#burgersColum {
+#burgersColum {
     display: flex;
     flex-direction: column;
-}*/
+    width: 20%;
+    border-radius: 15px;
+    background-color: darkgray;
+}
+
+.burgerImg{
+    border-radius: 15px;
+    width: 80px;
+}
 
 .burgers {
   display: flex;
+  border-radius: 15px;
   background-color: coral;
 }
 
@@ -23,5 +31,6 @@
 /* Parte de Byuto */
 #deliveryColum {
   display: flex;
+  flex-direction: column;
 }
 /* Fin */
