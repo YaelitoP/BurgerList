@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+
+header{
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+article{
+    float: left;
+    background-color: salmon;
+    width: 50%;
+    height: 500px;
+}
+
+#article {
+}
+
+aside{
+    float: left;
+    background-color: seagreen;
+    width: 50%;
+    height: 500px;
+}
