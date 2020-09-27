@@ -159,17 +159,21 @@ main{
   color: #ffffffb9;
 }
 .buyButton {
-  background-color: #ff5a2c;
+  background-color:black;
   border-radius: 3px;
-  color: #000000b6;
+  color:  #ff5a2c;
+}
+.buyButton:hover{
+  cursor: pointer;
 }
 /* Fin */
 
 /* Parte de Byuto */
 .cartColum {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-content: space-around;
+  justify-content: space-between;
   width: 45%;
   height: 80vh;
   background-color: #f26840;
@@ -212,13 +216,13 @@ main{
     flex-direction: row;
     align-items: center;
 }
-.cantidad{
+.quantity{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.cantidad button{
+.quantity button{
     margin: 0.5em;
     height: 25px;
     width: 25px;
@@ -227,7 +231,7 @@ main{
     color: #f26840;
     border: none;
 }
-.cantidad button:hover{
+.quantity button:hover{
     cursor: pointer;
 }
 .buy p {
@@ -238,15 +242,15 @@ main{
 }
 .cartfooter{
     background-color: black;
-    position: absolute;
     display: flex;
     justify-content: space-between;
-    width: 41.4%;
+    width: 100%;
     border-radius: 15px;
-    bottom: 8.5%;
+    position: relative;
+    bottom: 0px;
 }
 .cartfooter p{
-    margin: 0.2em;
+    margin: 1em;
     display: flex;
     align-items: center;
     color: #f5886a;
