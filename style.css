@@ -10,7 +10,11 @@
 /* Fin */
 
 body {
-  background-color: #c66b8e;
+  background-image: url(/photos/Parrilla.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
   font-family: sans-serif;
 }
 
