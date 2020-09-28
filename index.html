@@ -22,56 +22,94 @@
         </div>
       </ul>
     </header>
-    <div id="burgersColum">
-      <p id="burgersTitle"> Burgers List</p>
-      <div class="burgers">
-          <img src="photos/Burger.png" alt="Simple burger" class="burgerImg">
-          <div>
-            <p class="burgersName"> Html Burger </p>
-            <p class="burgersDescription">Simple burger with 2 medallions and cheese.</p>
-            <a class="buyButton">Buy</a>
+      <!--nueva etiqueta main para diferenciar el menu de la columna de pedidos-->
+      <main>
+        <div id="burgersColum">
+          <p id="burgersTitle">Burgers List</p>
+          <div class="burgers">
+              <img src="photos/Burger.png" alt="Simple burger" class="burgerImg">
+              <div>
+                <p class="burgersName"> Html Burger </p>
+                <p class="burgersDescription">Simple burger with 2 medallions and cheese.</p>
+                <a class="buyButton">Buy</a>
+              </div>
           </div>
-      </div>
-      <div class="burgers">
-        <img src="photos/BurgerCondimente.png" alt="Simple burger" class="burgerImg">
-        <div>
-          <p class="burgersName"> Css Burger </p>
-          <p class="burgersDescription">A burger with 3 medallions, cheese and condiments.</p>
-          <a class="buyButton">Buy</a>
+          <div class="burgers">
+            <img src="photos/BurgerCondimente.png" alt="Simple burger" class="burgerImg">
+            <div>
+              <p class="burgersName"> Css Burger </p>
+              <p class="burgersDescription">A burger with 3 medallions, cheese and condiments.</p>
+              <a class="buyButton">Buy</a>
+            </div>
+          </div>
+          <div class="burgers">
+            <img src="photos/BurgerEspecial.png" alt="Simple burger" class="burgerImg">
+            <div>
+              <p class="burgersName"> Js Burger </p>
+              <p class="burgersDescription">A burger with 3 medallions, cheese, tomato, lettuce and cheddar.</p>
+              <a class="buyButton">Buy</a>
+            </div>  
+          </div>
+          <div class="burgers">
+            <img src="photos/ReactBurger.png" alt="Simple burger" class="burgerImg">
+            <div>
+              <p class="burgersName"> React burger </p>
+              <p class="burgersDescription">For the moment this is unavalible</p>
+              <a class="buyButton">Buy</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="burgers">
-        <img src="photos/BurgerEspecial.png" alt="Simple burger" class="burgerImg">
-        <div>
-          <p class="burgersName"> Js Burger </p>
-          <p class="burgersDescription">A burger with 3 medallions, cheese, tomato, lettuce and cheddar.</p>
-          <a class="buyButton">Buy</a>
-        </div>  
-      </div>
-      <div class="burgers">
-        <img src="photos/ReactBurger.png" alt="Simple burger" class="burgerImg">
-        <div>
-          <p class="burgersName"> React burger </p>
-          <p class="burgersDescription">For the moment this is unavalible</p>
-          <a class="buyButton">Buy</a>
+        <div  id="drinksColum">
+          <p id="burgersTitle"> Drinks List</p>
+          <div class="drinks">
+            <a>Unity coke</a>
+          </div>
+          <div class="drinks">
+            <a>Unreal beer</a>
+          </div>
+          <div class="drinks">
+            <a>E3 red beer</a>
+          </div>
+          <div class="drinks">
+            <a>Steam juice</a>
+          </div>
         </div>
-      </div>
-    </div>
-    <div  id="drinksColum">
-      <p id="burgersTitle"> Drinks List</p>
-      <div class="drinks">
-        <a>Unity coke</a>
-      </div>
-      <div class="drinks">
-        <a>Unreal beer</a>
-      </div>
-      <div class="drinks">
-        <a>E3 red beer</a>
-      </div>
-      <div class="drinks">
-        <a>Steam juice</a>
-      </div>
-    </div>
+        <!--columna de pedidos-->
+        <div class="cartColum">
+          <div class="cartheader">
+            <p>Cart</p>
+          </div>
+            <div class="cartitems">
+              <div class="cartburguer">
+                <div class="pedido">
+                    <img src="photos/Burger.png" alt="Simple burger" class="burgerImg">
+                    <p class="burgersName"> Html Burger </p>
+                    <p class="burgerPrice">500$</p>
+                    <div class="quantity">
+                      <button><p>-</p></button>
+                      <p>1</p>
+                      <button><p>+</p></button> 
+                    </div>
+                </div>
+              </div>
+              <div class="cartdrinks">
+                <div class="pedido">
+                  <p class="burgersName"> UnityCoke </p>
+                  <p class="burgerPrice">49.99$</p>
+                  <div class="quantity">
+                    <button><p>-</p></button>
+                    <p>1</p>
+                    <button><p>+</p></button>
+                  </div>   
+                </div>
+            </div>
+          </div>  
+          <div class="cartfooter">
+            <p>Total: $</p>
+            <button class="confirmbutton">confirmar</button>
+          </div>
+        </div>
+      </main>
     <footer class="links">
       <a>Start learning how to develop apps, webs, games and other things in Coderhood devs</a>
       <a href="https://coderhood.dev/" id="joinButton"> Come to our page</a>

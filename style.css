@@ -10,7 +10,11 @@
 /* Fin */
 
 body {
-  background-color: #eee;
+  background-image: url(/photos/Parrilla.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
   font-family: sans-serif;
 }
 
@@ -78,11 +82,17 @@ ul {
   display: block;
 }
 
+/*arreglo de bautista para columnas pegadas */
+main{
+    display: flex;
+    flex-direction: row;
+}
 /* Parte de Yael */
 
 #burgersColum {
   display: flex;
   flex-direction: column;
+  height: 80vh;
   width: 26%;
   border-radius: 15px;
   margin: 10px 10px 10px 10px;
@@ -119,6 +129,7 @@ ul {
   display: flex;
   flex-direction: column;
   width: 20%;
+  height: 80vh;
   border-radius: 15px;
   margin: 10px 10px 10px 10px;
   background-color: #f26840;
@@ -152,15 +163,112 @@ ul {
   color: #ffffffb9;
 }
 .buyButton {
-  background-color: #ff5a2c;
+  background-color:black;
   border-radius: 3px;
-  color: #000000b6;
+  color:  #ff5a2c;
+}
+.buyButton:hover{
+  cursor: pointer;
 }
 /* Fin */
 
 /* Parte de Byuto */
-#deliveryColum {
+.cartColum {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  height: 80vh;
+  background-color: #f26840;
+  margin: 5em;
+  margin-top: 0.6em;
+  border-radius: 15px;
+}
+.cartheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartheader p{
+    margin: 0.2em;
+    font-weight: bolder;
+}
+.cartburger{
+    height: 65%;
+}
+.pedido {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5886a;
+    border-radius: 15px;
+    margin: 1em;
+    margin-top: 0.2em;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content p {
+    margin: 1em;
+}
+.buy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantity button{
+    margin: 0.5em;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    color: #f26840;
+    border: none;
+}
+.quantity button:hover{
+    cursor: pointer;
+}
+.buy p {
+    font-weight: bold;
+}
+.cartdrinks{
+    height: 40%;
+}
+.cartfooter{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    bottom: 0px;
+}
+.cartfooter p{
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    color: #f5886a;
+}
+.confirmbutton{
+    margin: 1em;
+    height: 25px;
+    width: 75px;
+    border-radius: 15px;
+    background-color: #f5886a;
+    color: black;
+    border: none;
+}
+.confirmbutton:hover{
+    cursor: pointer;
 }
 /* Fin */
